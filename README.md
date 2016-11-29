@@ -9,7 +9,7 @@ The labs and assignments are required for the fulfillment of both classes
 ## Class webpage
 
 You can find the lab assignments' descriptions [here](https://cmps012b-fall16-01.courses.soe.ucsc.edu/labs), and the programming assignments' descriptions [here](https://cmps012b-fall16-01.courses.soe.ucsc.edu/programs)
-<p>This is <a href="http://example.com" target="_blank">a link</a> that opens in a new window.</p>
+<p>This is <a href="http://google.com" target="_blank">a link</a> that opens in a new window.</p>
 
 ## Contributors
 
