@@ -1,0 +1,15 @@
+lab6 folder contains the following files:
+ListClient.java
+ListIndexOutOfBoundsException.java
+ListInterface.java
+List.java
+ListTest.java
+Makefile
+README
+
+To test the ListTest.java, you need to modify all ListClient mentions in the Makefile to be ListTest
+
+In order to run the executable ListClient jar file, I usually the following command:
+java ListClient
+
+Please let me know if you have any questions!

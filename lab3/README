@@ -1,0 +1,12 @@
+lab3 folder contains the following files: 
+FileReverse.c
+Makefile
+README
+in
+
+I added the in as a test file for you if you wish to test my code using it
+
+In order to run the executable file, I use the following command:
+./FileReverse in out
+
+Let me know if you have any other questions!

@@ -1,0 +1,17 @@
+lab4 folder contains the following files:
+Makefile
+README
+charType.c
+in
+
+I added the in as a test file for you if you wish to test my code using it, the in file
+is the one provided on the class website for lab4
+
+In order to run the executable file, I use the following command:
+./charType in out
+
+I add the check target in the make file, it uses the source file charType.c as input 
+and outputs the report to a file named charTypeOut, the output file is deleted if you
+do a make clean command
+
+Let me know if you have any other questions!

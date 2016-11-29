@@ -1,0 +1,26 @@
+#------------------------------------------------------------------------------
+# Makefile for Dictionary ADT and its test client
+#------------------------------------------------------------------------------
+
+ADT_NAME  =	Dictionary
+SOURCES	  =	$(ADT_NAME).c	$(ADT_NAME)Client.c
+OBJECTS	  =	$(ADT_NAME).o	$(ADT_NAME)Client.o
+EXEBIN	  =	$(ADT_NAME)Client
+HEADERS   =	$(ADT_NAME).h
+FLAGS	  =	-std=c99 -Wall
+VGFLAGS   =     --leak-check=full
+
+all : $(EXEBIN)
+
+
+$(EXEBIN) : $(OBJECTS) $(HEADERS)
+	gcc -o $(EXEBIN) $(OBJECTS)
+
+$(OBJECTS) : $(SOURCES) $(HEADERS)
+	gcc -c $(FLAGS) $(SOURCES)
+
+check :
+	valgrind $(VGFLAGS) ./$(EXEBIN)
+
+clean :
+	rm -f $(EXEBIN) $(OBJECTS)

@@ -1,0 +1,17 @@
+lab5 folder contains the following files:
+Dictionary.c
+Dictionary.h
+DictionaryClient.c
+DictionaryTest.c
+Makefile
+MakefileTest
+README
+
+I added the MakefileTest to make it easier for you to 'make' for the DictionaryTest.c
+
+In order to run the executable file, I use the following command on my Mac:
+./DictionaryClient
+
+I added the check target for valgrind in both makefiles
+
+Let me know if you have any other questions!
