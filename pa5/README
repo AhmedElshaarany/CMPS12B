@@ -1,0 +1,12 @@
+pa5 folder contains the following files:
+Dictionary.c
+DictionaryClient.c
+Dictionary.h
+DictionaryTest.c
+Makefile
+README
+
+In order to run the executable file, I use the following command on my Mac:
+./DictionaryClient
+
+Let me know if you have any other questions!

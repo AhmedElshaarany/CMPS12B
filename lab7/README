@@ -1,0 +1,16 @@
+lab7 folder contains the following files:
+Dictionary.java
+DictionaryClient.java
+DictionaryInterface.java
+DuplicateKeyException.java
+KeyNotFoundException.java
+Makefile
+README
+
+In order to run the executable DictionaryClient jar file, I usually the following command:
+java DictionaryClient
+
+Please let me know if you have any questions!
+
+
+
